@@ -10,12 +10,14 @@ body {
     color: #333;
 
 }
+/* Container */
 .contianer {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 
 }
+/* Headers */
 .main-header {
     background-color: #2c3e50;
     padding: 20px 0;
@@ -46,7 +48,7 @@ body {
 
 
 }
-
+/* Hero */
 .hero {
     background-color:#3498db;
     color: #ffffff;
@@ -66,7 +68,7 @@ body {
     font-size: 20px;
     margin-bottom: 30px;
 }
-
+/* Button */
 .btn {
     padding: 15px 30px;
     font-size: 18px;
