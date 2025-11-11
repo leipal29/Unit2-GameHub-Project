@@ -42,7 +42,7 @@ body {
     transition: transform 0.3s ease;
     
 }
-
+/* Logo Hover */
 .logo:hover{
     transform: scale(1.1);
     cursor: pointer;
@@ -56,6 +56,7 @@ body {
 
 
 }
+/* Nav Hover */
 
 .main-nav a:hover{
     color: #E4A199;
@@ -80,8 +81,14 @@ body {
 .hero-title {
     font-size: 48px;
     margin-bottom: 30px;
+    transition: color 0.3s ease, transform 0.3 ease;
 
 
+}
+/* Hero Hover */
+.hero-title:hover{
+    color: #f39c12;
+    transform: scale(1.05)
 }
 .hero-subtitle {
     font-size: 20px;
@@ -102,7 +109,7 @@ body {
     background-color: #E4A199;
     color: #ffffff;
 }
-
+/* Button Hover */
 .btn:hover {
     transform: translateY(-2px) scale(1.05);
     opacity: 0.9;
