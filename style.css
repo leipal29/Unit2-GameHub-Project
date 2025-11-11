@@ -53,6 +53,11 @@ body {
 .main-nav a:hover{
     color:#3498db
 }
+
+.main-nav a:focus {
+    outline: 2px solid #3498db;
+    outline-offset: 4px;
+}
 /* Hero */
 .hero {
     background-color: #EAD2A8;
