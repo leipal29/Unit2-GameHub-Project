@@ -1,0 +1,133 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    color: #333;
+
+}
+/* Container */
+.contianer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+/* Headers */
+.main-header {
+    background-color: #9BB47C;
+    padding: 20px 0;
+
+
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color:#ffffff;
+    transition: transform 0.3s ease;
+    
+}
+/* Logo Hover */
+.logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    
+
+
+}
+/* Nav Hover */
+
+.main-nav a:hover{
+    color: #E4A199;
+   border-bottom: 2px solid #E4A199;
+   padding-bottom: 5px;
+}
+
+.main-nav a:focus {
+    outline: 2px solid #3498db;
+    outline-offset: 4px;
+}
+/* Hero */
+.hero {
+    background-color: #EAD2A8;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+  
+
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 30px;
+    transition: color 0.3s ease, transform 0.3 ease;
+
+
+}
+/* Hero Hover */
+.hero-title:hover{
+    color: #c7a0f7;
+    transform: scale(1.05)
+}
+.hero-subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+/* Button */
+.btn {
+    padding: 20px 40px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease ;
+
+}
+
+.btn-primary {
+    background-color: #E4A199;
+    color: #ffffff;
+}
+/* Button Hover */
+.btn:hover {
+    transform: translateY(-2px) scale(1.05);
+    opacity: 0.9;
+
+
+}
+
+.btn:active{
+    transform: translateY(0);
+}
+/* Lesson 8 */
+.features{
+    padding: 80px 0; background-color: #f8f9fa;
+    
+}
+.section-title{
+    text-align: center; font-size: 36px;
+}
+.section-subtitle{
+    text-align:
+}
