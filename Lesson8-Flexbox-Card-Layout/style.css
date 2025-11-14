@@ -121,13 +121,23 @@ body {
     transform: translateY(0);
 }
 /* Lesson 8 */
-.features{
-    padding: 80px 0; background-color: #f8f9fa;
+.features-grid{
+    display: flex;
+    justify-content: space-between;
+    gap:30px
+
+}
+.features-card{
+    flex:1;
+    padding: 40px 30px;
+    box-shadow: 0 50px 15px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+}
+.features-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     
-}
-.section-title{
-    text-align: center; font-size: 36px;
-}
-.section-subtitle{
-    text-align:
 }
