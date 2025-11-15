@@ -72,7 +72,7 @@ body {
 .hero {
     background-color: #EAD2A8;
     color: #ffffff;
-    padding: 100px 0;
+    padding: 120px 0;
     text-align: center;
   
 
@@ -80,8 +80,14 @@ body {
 
 .hero-title {
     font-size: 48px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     transition: color 0.3s ease, transform 0.3 ease;
+    /* Lesson 9 */
+    margin-bottom: 20px;    
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
@@ -102,6 +108,8 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.3s ease, opacity 0.3s ease ;
+    font-weight: 600;
+    font-family: "Baskervville", serif;
 
 }
 
@@ -190,4 +198,8 @@ body{
   line-height: 1.6;
 }
 
-h1
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+}
