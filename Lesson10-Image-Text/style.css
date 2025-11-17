@@ -221,6 +221,8 @@ p {
    =================================== */
    
    /* LESSON 10 */
+
+   /* About */
    .about{
     padding: 80px 0;
     background-color: #ffffff;
@@ -252,3 +254,51 @@ p {
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.8);
    }
+   /* Community */
+   .community{
+    padding: 80px 0px;
+    background-color: #ffffff;
+
+   }
+   .community-content{
+    display: flex;
+    align-items:center;
+    gap: 60px;
+
+
+   }
+
+   .community-text{
+    flex:1;
+   }
+   .communtiy-image{
+    flex:1;
+   }
+   .community-text h2{
+    color: #2c3e50;
+    margin-bottom: 25px;
+
+   }
+
+   .join-btn{
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+   }
+
+   .communtiy-image img{
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    
+
+   }
+
+   .community-content{
+    flex-direction: column-reverse;
+   }
+   
