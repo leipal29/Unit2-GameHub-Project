@@ -256,7 +256,7 @@ p {
     box-shadow: 0 10px 30px rgba(0,0,0,0.8);
     transition: transform 0.3s ease;
 }
-.about-image img :hover{
+.about-image img:hover{
     transform: scale(1.1);
    }
    /* Community */
@@ -299,6 +299,9 @@ p {
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.8);
     transition: transform 0.3s ease;
+}
+.community-image img:hover{
+    transform: scale(1.1);
 }
 
 .community-content{
