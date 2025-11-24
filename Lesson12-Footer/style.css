@@ -299,6 +299,7 @@ p {
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.8);
     transition: transform 0.3s ease;
+    
 }
 .community-image img:hover{
     transform: scale(1.1);
@@ -320,5 +321,22 @@ p {
     justify-content: space-between;
     gap: 40px;
     margin-bottom: 40px;
+}
+
+
+/* LESSON 13-ANIMATIONS */
+.community-image img{
+    animation: image_pulse 1s infinite;
+}
+
+
+
+@keyframes image_pulse{
+
+    0% {transform: scale(1);}
+    25% {transform: scale(1.2);}
+    50% {transform: scale(1);}
+    75% {transform: scale(1.2);}
+    100% {transform: scale(1);}
 }
    
